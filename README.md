@@ -24,7 +24,13 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
       - uses: r7kamura/redocly-problem-matchers@v1
       - uses: mhiew/redoc-lint-github-action@v2
+        with:
+          args: schema.oas.yml --format stylish
+        env:
+          NO_COLOR: '1'
 ```
+
+Note: `NO_COLOR=1` and `--format stylish` are required for this problem watchers to work well.
 
 ### Screenshot
 
