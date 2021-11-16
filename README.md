@@ -30,7 +30,7 @@ jobs:
           NO_COLOR: '1'
 ```
 
-Note: `NO_COLOR=1` and `--format stylish` are required for this problem watchers to work well.
+Note: `NO_COLOR=1` and `--format stylish` are required for this problem matchers to work well.
 
 ### Screenshot
 
