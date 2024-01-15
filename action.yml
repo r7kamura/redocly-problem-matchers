@@ -1,7 +1,7 @@
 name: Redocly Problem Matchers
 description: Setup Problem Matchers for redocly/openapi-cli.
 runs:
-  using: node12
+  using: node20
   main: index.js
 branding:
   color: blue
